@@ -1,125 +1,134 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:900"
+      rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css"
+      href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css"
+      href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css"
+      media="print">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>JLIVECD by mdjahidulhamid</title>
+    <title>JLIVECD</title>
   </head>
-
   <body>
     <div id="container">
       <div class="inner">
-
         <header>
           <h1>JLIVECD</h1>
           <h2>Live cd/dvd customization tool</h2>
         </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/mdjahidulhamid/JLIVECD/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/mdjahidulhamid/JLIVECD/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/mdjahidulhamid/JLIVECD" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        <section id="downloads" class="clearfix"> <a
+            href="https://github.com/mdjahidulhamid/JLIVECD/zipball/master"
+            id="download-zip" class="button"><span>Download .zip</span></a>
+          <a
+            href="https://github.com/mdjahidulhamid/JLIVECD/tarball/master"
+            id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/mdjahidulhamid/JLIVECD"
+            id="view-on-github" class="button"><span>View on GitHub</span></a>
         </section>
-
         <hr>
-
         <section id="main_content">
-          <h2>
-<a name="disclaimer" class="anchor" href="#disclaimer"><span class="octicon octicon-link"></span></a>Disclaimer</h2>
+          <h2> <a name="disclaimer" class="anchor" href="#disclaimer"><span
+                class="octicon octicon-link"></span></a>Disclaimer</h2>
+          <p>Customized ISOs for personal use are fine. If you want to
+            share your customization with others, whether for free or
+            for purchase, you'll have to rename it; remove all distro
+            specific artwork, branding, and other identity elements; and
+            you can't confuse your intended users about the
+            customization being associated in any way with the base
+            distro.</p>
+          <p>You're free to use the softwares without renaming those, as
+            they are licensed under GPL. But otherwise, it will be your
+            own creation and no longer you base distros'.</p>
+          <p>The name and identity elements of a distro are trademarked
+            and copyrighted. Unless you have approval from appropriate
+            authorization you can't use those (identity elements and
+            name).</p>
+          <hr>
+          <h2> <a name="requirements" class="anchor"
+              href="#requirements"><span class="octicon octicon-link"></span></a>Requirements:</h2>
+          <p>1.squashfs-tools</p>
+          <p>2.genisoimage</p>
+          <p>install requirements by:</p>
+          <p>sudo apt-get install squashfs-tools genisoimage</p>
+          <h2> <a name="installation" class="anchor"
+              href="#installation"><span class="octicon octicon-link"></span></a>Installation:</h2>
+          <p>give the install.sh file execution permission and run it in
+            terminal</p>
+          <h2> <a name="how-to-use" class="anchor" href="#how-to-use"><span
+                class="octicon octicon-link"></span></a>How to use:</h2>
+          <p>Run JLstart in a terminal:<br>
+          </p>
+          <pre><code>~$ JLstart
 
-<p>Customized ISOs for personal use are fine. If you want to share your customization with others, whether for free or for purchase, you'll have to rename it; remove all distro specific artwork, branding, and other identity elements; and you can't confuse your intended users about the customization being associated in any way with the base distro.</p>
+Is this a fresh start: (y/n)?n
 
-<p>You're free to use the softwares without renaming those, as they are licensed under GPL. But otherwise, it will be your own creation and no longer you base distros'.</p>
+[sudo] password for user:
 
-<p>The name and identity elements of a distro are trademarked and copyrighted. Unless you have approval from appropriate authorization you can't use those (identity elements and name).</p>
-
-<hr><h2>
-<a name="requirements" class="anchor" href="#requirements"><span class="octicon octicon-link"></span></a>Requirements:</h2>
-
-<p>1.squashfs-tools</p>
-
-<p>2.genisoimage</p>
-
-<p>install requirements by:</p>
-
-<p>sudo apt-get install squashfs-tools genisoimage</p>
-
-<h2>
-<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation:</h2>
-
-<p>give the install.sh file execution permission and run it in terminal</p>
-
-<h2>
-<a name="how-to-use" class="anchor" href="#how-to-use"><span class="octicon octicon-link"></span></a>How to use:</h2>
-
-<p>Run JLstart in a terminal or run it from menu-&gt;system-&gt;JLIVECD</p>
-
-<p>Example:`</p>
-
-<pre><code>~$ JLstart`
-
-Is this a fresh start: (y/n)?n`
-
-[sudo] password for user:`
-
-...............................`
-
-
-Hints are given on the go, follow them to successfully create a customized live cd/dvd`
+...............................
 </code></pre>
+          <p>or run it from the menu:</p>
+          <p><img alt="" src="images/runjlivecd.png" height="478"
+              width="426"><br>
+          </p>
+          <p>Hints are given on the go, follow them to successfully
+            create a customized live cd/dvd.</p>
+          <h2> <a name="tested-os" class="anchor" href="#tested-os"><span
+                class="octicon octicon-link"></span></a></h2>
+          <h2>Tested OS:</h2>
+          <p>*Linux Mint 17 cinnamon</p>
+          <p>*Linux Mint 17 XFCE</p>
+          <p>*Xubuntu 14.04.1 LTS</p>
+          <h2> <a name="additonal-info" class="anchor"
+              href="#additonal-info"><span class="octicon octicon-link"></span></a>Additonal
 
-<h2>
-<a name="tested-os" class="anchor" href="#tested-os"><span class="octicon octicon-link"></span></a>Tested OS:</h2>
 
-<p>*Linux Mint 17 cinnamon</p>
 
-<p>*Linux Mint 17 XFCE</p>
+            info:</h2>
+          <p>1.In Linux Mint 17 XFCE there's a bug. To fix this edit
+            /usr/sbin/invoke-rc.d file (in chroot) as: replace exit 100
+            with exit 0 at line 285 and 421, then apply upgrade. after
+            upgrading revert this modification (must).</p>
+          <p>2.In Linux Mint 17 xfce, if you install nautilus then it
+            will set gnome-session as default session and if gnome
+            desktop is not installed then no desktop window will show up
+            in live session. change the link /usr/bin/x-session-manager
+            to point to /usr/bin/xfce4-session</p>
+          <p>3.In xubuntu 14.04.1 there's another bug: Can't open
+            /scripts/casper-functions" error) to fix this, run this code
+            in chroot:</p>
+          <p>ln -s /usr/share/initramfs-tools/scripts /scripts</p>
+          <p>Follow the following link for bug report:</p>
+          <p><a
+              href="https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1325142">https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1325142</a></p>
+          <p>4.If you are not able to get connected to internet in
+            chroot then you can try running the code: JLRefreshNetwork
+            in another terminal in your main system. This may happen, if
+            you have started JLIVECD before connecting your pc to the
+            internet.</p>
+          <p>5.If you want to change the timeout value then run this
+            code in another terminal in your main system:</p>
+          <p>sudo echo timeout_value &gt;
+            /usr/local/JLIVECD/main/timeout</p>
+          <p>"timeout_value" should be replaced with your desired time
+            in seconds (ex: 12)</p>
+          <h2> <a name="find-on-wiki" class="anchor"
+              href="#find-on-wiki"><span class="octicon octicon-link"></span></a>Find
 
-<p>*Xubuntu 14.04.1 LTS</p>
 
-<h2>
-<a name="additonal-info" class="anchor" href="#additonal-info"><span class="octicon octicon-link"></span></a>Additonal info:</h2>
-
-<p>1.In Linux Mint 17 XFCE there's a bug. To fix this edit /usr/sbin/invoke-rc.d file (in chroot) as:
-replace exit 100 with exit 0 at line 285 and 421, then apply upgrade. after upgrading revert this modification (must).</p>
-
-<p>2.In Linux Mint 17 xfce, if you install nautilus then it will set gnome-session as default session and if gnome desktop is not installed then no desktop window will show up in live session. change the link /usr/bin/x-session-manager to point to /usr/bin/xfce4-session</p>
-
-<p>3.In xubuntu 14.04.1 there's another bug: Can't open /scripts/casper-functions" error) to fix this, run this code in chroot:</p>
-
-<p>ln -s /usr/share/initramfs-tools/scripts /scripts</p>
-
-<p>Follow the following link for bug report:</p>
-
-<p><a href="https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1325142">https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1325142</a></p>
-
-<p>4.If you are not able to get connected to internet in chroot then you can try running the code: JLRefreshNetwork in another terminal in your main system. This may happen, if you have started JLIVECD before connecting your pc to the internet.</p>
-
-<p>5.If you want to change the timeout value then run this code in another terminal in your main system:</p>
-
-<p>sudo echo timeout_value &gt; /usr/local/JLIVECD/main/timeout</p>
-
-<p>"timeout_value" should be replaced with your desired time in seconds (ex: 12)</p>
-
-<h2>
-<a name="find-on-wiki" class="anchor" href="#find-on-wiki"><span class="octicon octicon-link"></span></a>Find on Wiki:</h2>
-
-<p><a href="http://en.wikipedia.org/wiki/JLIVECD">http://en.wikipedia.org/wiki/JLIVECD</a></p>
+            on Wiki:</h2>
+          <p><a href="http://en.wikipedia.org/wiki/JLIVECD">http://en.wikipedia.org/wiki/JLIVECD</a></p>
         </section>
-
-        <footer>
-          JLIVECD is maintained by <a href="https://github.com/mdjahidulhamid">mdjahidulhamid</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        <footer> JLIVECD is maintained by <a
+            href="https://github.com/mdjahidulhamid">mdjahidulhamid</a><br>
         </footer>
-
-        
       </div>
     </div>
   </body>
