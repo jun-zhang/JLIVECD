@@ -84,9 +84,22 @@ header h2 {
   line-height: 1.3;
 }
 
+#main-container {
+background: transparent url(../images/highlight-bg.jpg) 100% 0 no-repeat;
+min-height: 595px;
+}
+
+#left {
+    width:220px;
+    margin: 5px;
+}
+
+#right {
+    margin: 5px;
+    width: 220px;
+}
 #container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
-  min-height: 595px;
+	margin: 5px 0;
 }
 
 .inner {
