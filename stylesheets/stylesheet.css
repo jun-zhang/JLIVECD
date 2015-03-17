@@ -90,16 +90,17 @@ min-height: 595px;
 }
 
 #left {
-    width:220px;
+    width:200px;
     margin: 5px;
 }
 
 #right {
     margin: 5px;
-    width: 220px;
+    width: 200px;
 }
 #container {
 	margin: 5px 0;
+	width: calc(100% - 410px);
 }
 
 .inner {
