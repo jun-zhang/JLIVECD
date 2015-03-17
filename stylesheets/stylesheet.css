@@ -21,6 +21,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	float: left;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -90,18 +91,20 @@ min-height: 595px;
 }
 
 #left {
-    width:200px;
+    width: 200px;
     margin: 5px;
+}
+
+#container {
+	margin: 5px 0;
+	width: calc(100% - 410px);
 }
 
 #right {
     margin: 5px;
     width: 200px;
 }
-#container {
-	margin: 5px 0;
-	width: calc(100% - 410px);
-}
+
 
 .inner {
   width: 620px;
