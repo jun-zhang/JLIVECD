@@ -99,6 +99,53 @@ Is this a fresh start: (y/n)?n
           </p>
           <p>Hints are given on the go, follow them to successfully
             create a customized live cd/dvd.</p>
+            
+               <h2> <a name="things-to-care" class="anchor"
+              href="#things-to-care"><span class="octicon octicon-link"></span></a>Things To Care:</h2>
+
+<p>1. Don't use quotation in file/folder path</p>
+
+<p>~/"some folder" or "~/some folder" is invalid</p>
+
+<p>~/some folder is valid</p>
+
+<p>2. Don't use spaces in project path.</p>
+
+<h2><a name="things-to-care" class="anchor"
+              href="#things-to-care"><span class="octicon octicon-link"></span></a>Change Logs:</h2
+<h4>version 2.0:</h4>
+
+<p>1. You can use short cut in names for path to base iso i.e xubuntu for xubuntu-14.04.1-x64.iso, if there is no other file named "xubuntu" in the same folder. You can even use only x if there is no other file starting with x in the same folder.</p>
+
+<p>Example:</p>
+
+<p>enter base iso path: ~/Downloads/x</p>
+
+<p>As there is only one file that matches x is xubuntu-14.04.1-x64.iso, it will take that file as input automatically.</p>
+
+<p>2. You can use full path wih or without .iso</p>
+            
+            
+            <h2> <a name="special-feature" class="anchor"
+              href="#special-feature"><span class="octicon octicon-link"></span></a>Special
+
+
+
+            Feature:</h2>
+           <p> I call it debcache management!</p>
+
+<p>1. Just put your .deb files in edit/var/cache/apt/archives folder and they won't be downloaded again in the software installaion process.
+</p>
+<p>2. They will be moved automatically to a folder named debcache (located in the same directory as "edit") prior to image creation so that they won't be included in the iso image.
+</p>
+<p>3. You never need to delete .deb files from edit/var/cache/apt/archives manually and you shouldn't.
+</p>
+<p>4. If you don't delete the .deb files then you will never need to download them again as long as they remain the updated files according to your package list (which you get from apt-get update). debcache management will take proper measures to move the files to required places to minimize downloads of packages from internet.
+</p>
+<p>5. Altenatively, you can put the .deb files in "debcache" folder too, but in that case you need to run the application after you have finished copying files to this folder...
+  </p>     
+            
+            
           <h2> <a name="tested-os" class="anchor" href="#tested-os"><span
                 class="octicon octicon-link"></span></a></h2>
           <h2>Tested OS:</h2>
@@ -138,24 +185,7 @@ Is this a fresh start: (y/n)?n
             /usr/local/JLIVECD/main/timeout</code></p>
           <p>"timeout_value" should be replaced with your desired time
             in seconds (ex: 12)</p>
-                   <h2> <a name="special-feature" class="anchor"
-              href="#special-feature"><span class="octicon octicon-link"></span></a>Special
-
-
-
-            Feature:</h2>
-           <p> I call it debcache management!</p>
-
-<p>1. Just put your .deb files in edit/var/cache/apt/archives folder and they won't be downloaded again in the software installaion process.
-</p>
-<p>2. They will be moved automatically to a folder named debcache (located in the same directory as "edit") prior to image creation so that they won't be included in the iso image.
-</p>
-<p>3. You never need to delete .deb files from edit/var/cache/apt/archives manually and you shouldn't.
-</p>
-<p>4. If you don't delete the .deb files then you will never need to download them again as long as they remain the updated files according to your package list (which you get from apt-get update). debcache management will take proper measures to move the files to required places to minimize downloads of packages from internet.
-</p>
-<p>5. Altenatively, you can put the .deb files in "debcache" folder too, but in that case you need to run the application after you have finished copying files to this folder...
-  </p>          
+                        
           <h3> <a href="http://en.wikipedia.org/wiki/JLIVECD"><font color="#1a1ad2">Find
 
 
